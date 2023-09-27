@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:8000/viewDetails/2131nmed -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+    
+    <link href="./Details_files/bootstrap.min.css" rel="stylesheet">
+    <!-- <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    /> -->
+    <!-- <link re="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"/> -->
+    <link rel="stylesheet" href="./Details_files/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="./Details_files/jquery.dataTables.css">
+    <script src="./Details_files/jquery-3.7.0.js.download"></script>
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+    <script src="./Details_files/bootstrap.bundle.min.js.download"></script>
+    
+    
+    <script type="text/javascript" src="./Details_files/jquery.dataTables.min.js.download"></script>
+    <script scr="/static/management_system/dataTables.bootstrap5.min.js"></script>
+  
+    <!-- <script src="{script.js}"></script> -->
+    <title>
+        
+Details
+
+    </title>
+  <script>
+    
+    setTimeout(function () {
+
+// Closing the alert
+$('.alert').alert('close');
+}, 5000);
+  $(document).ready(
+    ()=>{
+      $("#detail_table").dataTable();
+    }
+  )
+
+
+  </script>  
+  </head>
+
+  <body style="height: 100%;">
+    <div class = "container">
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-xl border-bottom border-body mb-3">
+        <div class="container-fluid">
+            <h1>Management</h1>
+            <div class="d-flex">
+                <a class="btn btn-outline-primary me-1" role="button" href="http://127.0.0.1:8000/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"></path>
+                  </svg>Home</a>
+                <a class="btn btn-outline-primary me-1" role="button" href="http://127.0.0.1:8000/addOrder"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"></path>
+                  </svg>Add Order</a>
+                <a class="btn btn-outline-danger" role="button" href="http://127.0.0.1:8000/logout"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16">
+                    <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"></path>
+                    <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"></path>
+                  </svg>Logout</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container-fluid">
+    <div class="row justify-content-lg-between">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-8 row">
+                    <!-- <div class="col-3">
+                        <img class="img-fluid" style="height: 10rem;"src="">
+                    </div> -->
+                    <div class="col-9">
+                        <h4>Order Details</h4>
+                        <p>Fabric Vender : asckuahk</p>
+                        <p>Garment Vendor: q1wednsa ajn</p>
+                        <p>Fabric Ref No: 12enqlsd m,a</p>
+                        <p>StyleSheet No:2131nmed</p>
+                        <!-- <p>TOC_UDA: </p> -->
+                        <p>Garment Order QTY: 1200</p>
+                        <p>Order Date: Aug. 31, 2023</p>
+                        <p>Expected Delivery Date: Dec. 12, 2023</p>
+                        <p>Order Status: 
+                            
+                                Order Taken
+                            
+                        </p>
+                    
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reminderModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-plus" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 5.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 .5-.5z"></path>
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"></path>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"></path>
+                            </svg>Add Reminder</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#updateStatus_12enqlsd m,a_Modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
+                            </svg>
+                            Update Status
+                        </button>
+                        <a class="btn btn-outline-primary" href="http://127.0.0.1:8000/editOrder/12enqlsd%20m,a" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                            </svg>
+                            Edit Details</a>
+                        <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#delete_12enqlsd m,a_Modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"></path>
+                        </svg>Delete Order</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="reminderModal" tabindex="-1" aria-labelledby="reminderModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="reminderModalLabel">Add Reminder</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <form action="http://127.0.0.1:8000/addReminder/2131nmed" method="POST">
+                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                <div class="modal-body">
+                                    <div>
+                                        <label class="form-label" for="stylesheet_no">For Stylesheet</label>
+                                        <input type="text" class="form-control" name="style_sheet_no" id="stylesheet_no" disabled="" value="2131nmed">
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="text_reminder">Text</label>
+                                        <input type="text" class="form-control" name="text" id="text_reminder">
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="date_reminder">Date to remind</label>
+                                        <input type="date" class="form-control" name="date_reminder" id="date_reminder">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="updateStatus_12enqlsd m,a_Modal" tabindex="-1" aria-labelledby="updateStatus_12enqlsd m,a_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="updateStatus_12enqlsd m,a_ModalLabel">Update Status</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="http://127.0.0.1:8000/order-status/12enqlsd%20m,a" method="POST">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                            <div class="modal-body">
+                                <span>
+                                
+                                    Order Taken
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                    <span>
+                                        <select name="updated_status" class="form-select form-select-sm" aria-label="Next Status">
+                                            <option selected="" value="PR">In Manufacturing</option>
+                                            <option value="DR"> Ready for Delivery</option>
+                                        </select>
+                                    </span>
+                                
+                                </span>
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="delete_12enqlsd m,a_Modal" tabindex="-1" aria-labelledby="delete_12enqlsd m,a_ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="delete_12enqlsd m,a_ModalLabel">Confirm Delete</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="http://127.0.0.1:8000/order/delete/12enqlsd%20m,a" method="POST">
+                            <div class="modal-body">
+                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                <div>
+                                    <label class="form-label" for="stylesheet_no">For
+                                        Order Fabric Reference Number</label>
+                                    <input type="text" class="form-control" name="style_sheet_no" id="stylesheet_no" disabled="" value="12enqlsd m,a">
+                                </div>
+                                <div>
+                                    <label class="form-label" for="stylesheet_no">For
+                                        Stylesheet Number</label>
+                                    <input type="text" class="form-control" name="style_sheet_no" id="stylesheet_no" disabled="" value="2131nmed">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn  btn-danger">Delete</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="col-4 row ">
+                    <div>
+                        <h4>StyleSheet No: 2131nmed</h4>
+                        <p>Invoice No: 1nion1dnjk1n</p>
+                        <p>f_in_h: Dec. 12, 2023</p>
+                        <p>Total Amount: 12001</p>
+                        <p>Cheque Amount </p>
+                        <p>PDC Date: </p>
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#stylesheetmodel">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                            </svg>
+                            Edit Stylesheet
+                        </button>
+                        <div class="modal fade" id="stylesheetmodel" tabindex="-1" aria-labelledby="stylesheetmodelLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Stylesheet</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form action="http://127.0.0.1:8000/editStyleSheet/2131nmed" method="POST">
+                                        <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                        <div class="modal-body">
+                                          
+                                            <div>
+                                                <label for="style_no" class="form-label">Style No</label>
+                                                <input type="text" name="style_no" id="style_no" placeholder="style_no" class="form-control" value="2131nmed" disabled="">
+                                                    <input type="text" name="style_no" id="style_no" placeholder="style_no" class="form-control" value="2131nmed" hidden="">
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="invoice_no">Invoice No</label>
+                                                <input type="text" name="invoice_no" id="invoice_no" placeholder="invoice_no" class="form-control" value="1nion1dnjk1n" required="">
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="f_in_h">F in H</label>
+                                                <input type="date" name="f_in_h" id="f_in_h" class="form-control" value="2023-12-12" required="">
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="total_amount">Total Amount</label>
+                                                <input type="number" name="total_amount" id="total_amount" placeholder="total_amount" class="form-control" value="12001" required="">
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="cheque_amount">Cheque Amount</label>
+                                                <input type="number" name="cheque_amount" id="cheque_amount" placeholder="cheque_amount" class="form-control" value="" required="">
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="pdc_date">PDC Date</label>
+                                                <input type="date" name="pdc_date" id="pdc_date" placeholder="pdc_date" class="form-control" value="" required="">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Save</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class="row mt-3">
+                <div>
+                    <h4>Style Sheet Cutting <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#addcuttingmodel"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"></path>
+                              </svg>Add</button></h4>
+                    <div class="modal fade" id="editCutting_6_Modal" tabindex="-1" aria-labelledby="editCutting_6_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="editCutting_6_ModalLabel">Edit
+                                                Cutting Details</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form enctype="multipart/form-data" action="http://127.0.0.1:8000/editStyleSheetCutting/6" method="POST"></form>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/bater_fly.PNG" class="img-fluid">
+                                                    
+                                                    <label class="form-label" for="fabric_image">Fabric Image</label>
+
+                                                    <input type="file" name="cutting_image" id="fabric_image" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="asdnlkjnad">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="12">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="2">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1">
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div><div class="modal fade" id="delete_cutting_6_Modal" tabindex="-1" aria-labelledby="delete_cutting_6_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="delete_cutting_6_ModalLabel">Confirm Delete</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form action="http://127.0.0.1:8000/stylesheetcutting/delete/6" method="POST"></form>
+                                        <div class="modal-body">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/bater_fly.PNG" class="img-fluid">
+                                                    
+                                                    
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="asdnlkjnad" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="12" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="2" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1" disabled="">
+                                                </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn  btn-danger">Delete</button>
+                                        </div>
+                                    
+                                  </div>
+                                </div>
+                            </div><div class="modal fade" id="editCutting_15_Modal" tabindex="-1" aria-labelledby="editCutting_15_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="editCutting_15_ModalLabel">Edit
+                                                Cutting Details</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form enctype="multipart/form-data" action="http://127.0.0.1:8000/editStyleSheetCutting/15" method="POST"></form>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed.PNG" class="img-fluid">
+                                                    
+                                                    <label class="form-label" for="fabric_image">Fabric Image</label>
+
+                                                    <input type="file" name="cutting_image" id="fabric_image" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="vklmekl">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1">
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div><div class="modal fade" id="delete_cutting_15_Modal" tabindex="-1" aria-labelledby="delete_cutting_15_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="delete_cutting_15_ModalLabel">Confirm Delete</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form action="http://127.0.0.1:8000/stylesheetcutting/delete/15" method="POST"></form>
+                                        <div class="modal-body">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed.PNG" class="img-fluid">
+                                                    
+                                                    
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="vklmekl" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1" disabled="">
+                                                </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn  btn-danger">Delete</button>
+                                        </div>
+                                    
+                                  </div>
+                                </div>
+                            </div><div class="modal fade" id="editCutting_16_Modal" tabindex="-1" aria-labelledby="editCutting_16_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="editCutting_16_ModalLabel">Edit
+                                                Cutting Details</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form enctype="multipart/form-data" action="http://127.0.0.1:8000/editStyleSheetCutting/16" method="POST"></form>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed.jpg" class="img-fluid">
+                                                    
+                                                    <label class="form-label" for="fabric_image">Fabric Image</label>
+
+                                                    <input type="file" name="cutting_image" id="fabric_image" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="red">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="11">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1">
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div><div class="modal fade" id="delete_cutting_16_Modal" tabindex="-1" aria-labelledby="delete_cutting_16_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="delete_cutting_16_ModalLabel">Confirm Delete</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form action="http://127.0.0.1:8000/stylesheetcutting/delete/16" method="POST"></form>
+                                        <div class="modal-body">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed.jpg" class="img-fluid">
+                                                    
+                                                    
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="red" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="11" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1" disabled="">
+                                                </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn  btn-danger">Delete</button>
+                                        </div>
+                                    
+                                  </div>
+                                </div>
+                            </div><div class="modal fade" id="editCutting_17_Modal" tabindex="-1" aria-labelledby="editCutting_17_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="editCutting_17_ModalLabel">Edit
+                                                Cutting Details</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form enctype="multipart/form-data" action="http://127.0.0.1:8000/editStyleSheetCutting/17" method="POST"></form>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed_7wIjRtw.jpg" class="img-fluid">
+                                                    
+                                                    <label class="form-label" for="fabric_image">Fabric Image</label>
+
+                                                    <input type="file" name="cutting_image" id="fabric_image" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="dred">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1">
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div><div class="modal fade" id="delete_cutting_17_Modal" tabindex="-1" aria-labelledby="delete_cutting_17_ModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="delete_cutting_17_ModalLabel">Confirm Delete</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form action="http://127.0.0.1:8000/stylesheetcutting/delete/17" method="POST"></form>
+                                        <div class="modal-body">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                                <div>
+                                                    
+                                                    
+                                                    <img src="./Details_files/2131nmed_7wIjRtw.jpg" class="img-fluid">
+                                                    
+                                                    
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="color">Color</label>
+                                                    <input type="text" name="color" id="color" class="form-control" placeholder="color" value="dred" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="mtr">Meter</label>
+                                                    <input type="number" name="mtr" id="mtr" class="form-control" placeholder="meter" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="s">S</label>
+                                                    <input type="number" name="s" id="s" class="form-control" placeholder="s" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="m">M</label>
+                                                    <input type="number" name="m" class="form-control" id="m" placeholder="m" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label">L</label>
+                                                    <input type="number" class="form-control" name="l" placeholder="l" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xl">XL</label>
+                                                    <input type="number" class="form-control" name="xl" id="xl" placeholder="xl" value="1" disabled="">
+                                                </div>
+                                                <div>
+                                                    <label class="form-label" for="xxl">XXL</label>
+                                                    <input type="number" class="form-control" name="xxl" id="xxl" placeholder="xxl" value="1" disabled="">
+                                                </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn  btn-danger">Delete</button>
+                                        </div>
+                                    
+                                  </div>
+                                </div>
+                            </div><table class="table">
+                        <thead>
+                            <tr><th>Image</th>
+                            <th>Color</th>
+                            <th>Mtr</th>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>L</th>
+                            <th>XL</th>
+                            <th>XXL</th>
+                            <th>Action</th>
+                        </tr></thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                    <img src="./Details_files/bater_fly.PNG" style="width:10rem; height:auto;">
+                                    
+                                </td>
+                                <td>asdnlkjnad</td>
+                                <td>12</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td> 2</td>
+                                <td>1</td>
+                                <td>
+                                    <div>
+                                        <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editCutting_6_Modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                                              </svg>Edit</button>
+                                        <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delete_cutting_6_Modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"></path>
+                                          </svg>Delete</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                            <tr>
+                                <td>
+                                    <img src="./Details_files/2131nmed.PNG" style="width:10rem; height:auto;">
+                                    
+                                </td>
+                                <td>vklmekl</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td> 1</td>
+                                <td>1</td>
+                                <td>
+                                    <div>
+                                        <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editCutting_15_Modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                                              </svg>Edit</button>
+                                        <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delete_cutting_15_Modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"></path>
+                                          </svg>Delete</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                            <tr>
+                                <td>
+                                    <img src="./Details_files/2131nmed.jpg" style="width:10rem; height:auto;">
+                                    
+                                </td>
+                                <td>red</td>
+                                <td>11</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td> 1</td>
+                                <td>1</td>
+                                <td>
+                                    <div>
+                                        <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editCutting_16_Modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                                              </svg>Edit</button>
+                                        <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delete_cutting_16_Modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"></path>
+                                          </svg>Delete</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                            <tr>
+                                <td>
+                                    <img src="./Details_files/2131nmed_7wIjRtw.jpg" style="width:10rem; height:auto;">
+                                    
+                                </td>
+                                <td>dred</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td> 1</td>
+                                <td>1</td>
+                                <td>
+                                    <div>
+                                        <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editCutting_17_Modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                                              </svg>Edit</button>
+                                        <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delete_cutting_17_Modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"></path>
+                                          </svg>Delete</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                        </tbody>
+                    </table>
+                    <div class="modal fade" id="addcuttingmodel" tabindex="-1" aria-labelledby="addcuttingmodelLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <form enctype="multipart/form-data" action="http://127.0.0.1:8000/addStyleSheetCutting/2131nmed" method="POST">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="vt0NW9PgW6aeQXHylW1ptgw3D0J6VZD2FXvnstPHWj3TDfKjOTlRj6mxcFf3ijoD">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="addcuttingmodelLabel">Add Cutting Sheet</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table ">
+                                            <thead>
+                                                <tr><th>Fabric Image</th>
+                                                <th>Color</th>
+                                                <th>Meter</th>
+                                                <th>S</th>
+                                                <th>M</th>
+                                                <th>L</th>
+                                                <th>XL</th>
+                                                <th>XXL</th>
+                                            </tr></thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> <input type="file" name="cutting_image" id="fabric_image" class="form-control form-control-sm" placeholder="fabric_sample"></td>
+                                                    <td><input type="text" name="color" id="color" class="form-control" placeholder="color"></td>
+                                                    <td><input type="number" step=".01" name="mtr" id="mtr" class="form-control" placeholder="meter"></td>
+                                                    <td><input type="number" step=".01" name="s" id="s" class="form-control" placeholder="s"></td>
+                                                    <td><input type="number" step=".01" name="m" class="form-control" id="m" placeholder="m"></td>
+                                                    <td><input type="number" step=".01" class="form-control" name="l" placeholder="l"></td>
+                                                    <td><input type="number" step=".01" class="form-control" name="xl" id="xl" placeholder="xl"></td>
+                                                    <td><input type="number" step=".01" class="form-control" name="xxl" id="xxl" placeholder="xxl"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Add Cutting</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 h-100">
+            <div>
+                <span class="h2">
+                    Reminder
+                </span>
+                <small>for 2131nmed</small>
+            </div>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#today-pane" type="button" role="tab" aria-controls="nav-today" aria-selected="false" tabindex="-1">Today</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#all-pane" type="button" role="tab" aria-controls="nav-all" aria-selected="false" tabindex="-1">All</button>
+                <button class="nav-link active" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#pending-pane" type="button" role="tab" aria-controls="nav-pending" aria-selected="true">Pending</button>
+                <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#done-pane" type="button" role="tab" aria-controls="nav-done" aria-selected="false" tabindex="-1">Done</button>
+            </div>
+            <div class="tab-content overflow-auto " id="myTabContent">
+                <div class="tab-pane fade" id="today-pane" role="tabpanel" aria-labelledby="today-pane-tab" tabindex="0">
+                    <div class="list-group">
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="all-pane" role="tabpanel" aria-labelledby="all-pane-tab" tabindex="0">
+                    <div class="list-group">
+                        
+                    </div>
+                </div>
+
+                <div class="tab-pane fade active show" id="pending-pane" role="tabpanel" aria-labelledby="pending-pane-tab" tabindex="0">
+                    <div class="list-group">
+                        
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="done-pane" role="tabpanel" aria-labelledby="done-pane-tab" tabindex="0">
+                    <div class="list-group">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+  
+   
+  
+</body></html>
